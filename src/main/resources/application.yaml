@@ -1,0 +1,6 @@
+server:
+    port: 8080
+
+influx:
+    server: http://localhost:8086
+    database: gc
