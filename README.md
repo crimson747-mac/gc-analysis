@@ -12,6 +12,7 @@ GC LOG 전송 서버
 
 ### API 종류
 #### 1. [GET] : 다른 서버와 같이 설치되어 GC 로그 파일에 직접 접근이 가능한 경우
+* 로그 접근파일 위치: com.gc.analysis.enums.ServerType
 * /v1/gc/util/{serverName} : gcutil 옵션의 GC 로그 처리
 * /v1/gc/capacity/{serverName} : gccapacity 옵션의 GC 로그 처리
 
