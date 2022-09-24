@@ -4,3 +4,8 @@ server:
 influx:
     server: http://localhost:8086
     database: gc
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher

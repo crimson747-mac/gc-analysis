@@ -26,7 +26,7 @@ public enum ServerType {
     }
 
     public static ServerType getServerType(String serverName) {
-        switch (serverName) {
+        switch (serverName.toLowerCase()) {
             case "click":
                 return CLICK;
             case "server-batch":
